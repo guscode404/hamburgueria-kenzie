@@ -1,0 +1,47 @@
+.card {
+   min-width: 100%;
+   max-height: 200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+    > div {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+
+        img {
+            min-width: 3.75rem;
+            min-height: 3.75rem;
+            border-radius: 0.25rem;
+            background-color: var(--gray-1);
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.625rem;
+
+            h3 {
+                font-size: var(--text-size-0);
+                font-weight: var(--text-weight-0);
+            }
+
+            span {
+                font-size: var(--text-size-2);
+                font-weight: var(--text-weight-2);
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    button {
+        background: none;
+        border: none;
+        color: #BDBDBD;
+        margin-bottom: 0.5rem;
+    }
+}

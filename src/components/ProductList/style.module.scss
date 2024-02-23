@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 5%;
+}
+
+@media (min-width: 480px) {
+    .list {
+        overflow-x: visible;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+}
